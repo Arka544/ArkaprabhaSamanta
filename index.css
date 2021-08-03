@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar ul{
+    list-style: none;
+    padding-right: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    border-width: 50px;
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar a:hover{
+    background: brown;
+    text-align: center;
+}
+body{background: url(homepage.jpg);height: 100%; background-position: center;background-repeat: repeat-y;background-size: cover;}
+.content{
+    display: flex;
+    align-items:left;
+    justify-content: center;min-height: 100vh;
+}
+.ann{display: inline-flex;}
+.ann .static{
+    color: #fff;
+    font-size: 45pt;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ann .dynamic p{
+    color: rgb(204, 8, 8);
+    list-style: none;
+    font-size: 50pt;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head h3{
+    font-family: Arial, Helvetica, sans-serif; font-size: large; padding-left: 50px;
+}
+.head h1{
+    font-family: Arial, Helvetica, sans-serif; color:rgb(204, 8, 8); font-size: 40pt; padding-left: 40pt;
+}

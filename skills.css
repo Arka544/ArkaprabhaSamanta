@@ -1,0 +1,32 @@
+#heading{text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;color: #c4c5d4;}
+            #about{text-align: justify; width: 40%; font-size: x-large; padding-left: 2cm;}
+            .skills{padding-left: 2cm;}
+            .skills .tech progress{
+                color: red;
+            }
+            .navbar ul{
+                list-style: none;
+                padding-right: 0%;
+                margin: 0%;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: right;
+            }
+            .navbar li{
+                display: inline-block;
+            }
+            .navbar a{
+                text-decoration: none;
+                color: #fff;
+                border-width: 50px;
+                display: block;
+                padding: 20px;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            .navbar a:hover{
+                background: #8a8b92;
+                text-align: center;
+            }
+            body{background: url(skills.jpg);height: 100%; background-position: center;background-repeat: repeat-y;background-size: cover;}
